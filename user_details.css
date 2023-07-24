@@ -1,0 +1,39 @@
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.size {
+    font-size: 100px;
+    position: absolute;
+    top: 180px;
+    left: 575px;
+}
+.user_details{
+    width: 900px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+img{
+    padding-right: 20px;
+    width: 250px;
+    height: 300px;
+    padding-left: 100px;
+}
+.content{
+    width: 200px;
+
+}
+h1{
+    padding-left: 180px;
+}
+.fa-arrow-right{
+    padding-bottom: 420px;
+    margin-left: 30px;
+}

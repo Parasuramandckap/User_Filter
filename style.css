@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.users {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+p {
+    position: relative;
+    left: 77px;
+    bottom: 50px;
+}
+
+img {
+    height: 250px;
+}
+
+.users {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.users div img {
+    border-radius: 50px;
+    padding-right: 20px;
+}
+
+.input {
+    height: 30px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: rgb(155, 154, 154);
+    border-radius: 10px;
+    outline: none;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+input::placeholder {
+    color: white;
+}
+
+h2 {
+    margin-left: 250px;
+}
+
+input {
+    position: relative;
+    top: 20px;
+    outline: none;
+    color: white;
+}
+.users{
+    gap: 10px;
+}
+.btn {
+    position: relative;
+    top: 20px;
+}
+p{
+    visibility: hidden;
+    cursor: pointer;
+}
+.btn button {
+    width: 80px;
+    margin-right: 20px;
+    outline: none;
+}
+a{
+   color: rgb(0, 4, 255);
+    text-decoration: none;
+}
+/* button:hover {
+    background-color: black;
+    color: white;
+    outline: none;
+} */
+button{
+    border: 2px solid black;
+}
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.size {
+    font-size: 100px;
+    position: absolute;
+    top: 180px;
+    left: 575px;
+}
+.All{
+    background-color: black;
+    color: white;
+    outline: none;
+}
+.load{
+
+    margin-left: 240px;
+    background: black;
+    color: white;
+    /* width: 50px; */
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+}
+
+.add{
+    background-color: black;
+    color: white;
+}
